@@ -1,0 +1,13 @@
+services:
+  universal_sequence_classifier:
+    build:
+      context: .
+    ports:
+      - 5292:5000
+    restart: unless-stopped
+    networks:
+      - demo_network
+
+networks:
+  demo_network:
+    external: true
