@@ -22,4 +22,4 @@ More specifically, the model learns to compare the embeddings of sentences and t
 default_scheme = ["Earthquake", "Flooding", "Tropical storm", "Explosion", "Shooting", "Wildfire", "Hostage",
                   "Pandemic", "War", "Inflation"]
 ```
-If match is found, an `out-of-scope` class will be used. 
+If no match is found, an `out-of-scope` class will be used. 
