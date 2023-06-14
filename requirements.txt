@@ -3,3 +3,5 @@ fastcoref
 clean_text
 flask
 flask_healthz
+paddleocr
+paddlepaddle

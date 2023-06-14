@@ -8,6 +8,7 @@ RUN \
     apt-get -y install \
         git \
         curl \
+        libgomp1 \
     && \
     apt-get -y clean
 
